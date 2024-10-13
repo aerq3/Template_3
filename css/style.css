@@ -1,0 +1,79 @@
+body{
+    background: rgb(31, 32, 31);
+    height: 1000px;
+}
+.container{
+    height: 50px;
+}
+.nav_word{
+    font-weight: bold;
+    font-size: 19px;
+}
+.container i{
+    cursor: pointer;
+    font-size: 19px;
+    float: right;
+    margin-top: 6px;
+}
+/* ////////////////////////////////////////////////////////////////////// */
+.home_title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+/* ////////////////////////////////////////////////////////////////////////// */
+.items_info{
+    background-color: rgb(7, 7, 7);
+}
+.items img{
+    width: 100%;
+}
+.items h3{
+    font-size: 20px;
+}
+.items span{
+    font-size: 20px;
+}
+.items i{
+    margin-top: -5px;
+   text-align: center;
+   font-size: 20px;
+   width: 30px;
+   height: 30px;
+   line-height: 30px;
+   border-radius: 50%;
+   background-color: rgb(14, 157, 81);
+}
+/* ///////////////////////////////////////////// */
+.side{
+    height: 109.5vh;
+    width: 250px;
+    background-color: rgb(31, 32, 31);
+    position: absolute;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: none;
+}
+.side i {
+    cursor: pointer;
+    font-size: 25px;
+    margin-top: 10px ;
+    margin-left: 210px ;
+}
+/* //////////////////////////////////////////////////// */
+.selected_element{
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    line-height: 30px;
+    word-spacing: 50px;
+}
+.total_text{
+   width: 70px; 
+   height: 40px;
+   background-color: #ffffff;
+   text-align: center;
+   padding-top: 8px;
+   margin-left: 160px;
+   margin-top: -40px;
+}
